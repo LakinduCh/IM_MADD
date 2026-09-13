@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "276557970166",
+    "project_id": "tripon-ai",
+    "storage_bucket": "tripon-ai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276557970166:android:d95b1897dbd76631c68ad7",
+        "android_client_info": {
+          "package_name": "com.example.triponai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj4eq93KAZP0jZXu06oxUVpxH7sQJYpjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

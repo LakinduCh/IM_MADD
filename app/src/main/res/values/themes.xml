@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TripOnAI" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/tripon_green</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/tripon_white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/tripon_light_green</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
+        <item name="colorOnSecondary">@color/tripon_green</item>
+
+        <!-- UI elements -->
+        <item name="android:windowBackground">@color/tripon_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <!-- Status bar and Navigation bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <!-- Splash Screen theme. -->
+    <style name="Theme.TripOnAI.Launch" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/tripon_light_green</item>
+        <item name="windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+        <item name="postSplashScreenTheme">@style/Theme.TripOnAI</item>
+    </style>
+
+    <style name="Theme.TripOnAI.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.TripOnAI.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

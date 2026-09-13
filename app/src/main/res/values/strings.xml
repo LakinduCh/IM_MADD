@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">TripON AI</string>
+    <string name="tagline">Plan Smarter. Travel Better.</string>
+
+    <!-- Splash -->
+    <string name="splash_title">TripON AI</string>
+
+    <!-- Login -->
+    <string name="login_welcome">Welcome back</string>
+    <string name="login_subtitle">Sign in to continue planning your next journey.</string>
+    <string name="email_hint">Email address</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="new_here_register">New here? Create an account</string>
+
+    <!-- Register -->
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Start your journey with us today.</string>
+    <string name="name_hint">Full Name</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="register_button">Register</string>
+    <string name="already_have_account">Already have an account? Login</string>
+
+    <!-- Home -->
+    <string name="start_planning">Start Planning</string>
+    <string name="plan_new_trip">Plan a New Trip</string>
+    <string name="upcoming_trips">Upcoming Trips</string>
+    <string name="no_upcoming_trips">No upcoming trips yet.</string>
+
+    <!-- Errors -->
+    <string name="err_empty_fields">Please fill in all fields</string>
+    <string name="err_invalid_email">Please enter a valid email</string>
+    <string name="err_password_mismatch">Passwords do not match</string>
+    <string name="err_login_failed">Login failed. Please check your credentials.</string>
+    <string name="err_register_failed">Registration failed. Please try again.</string>
+    <string name="home_subtitle">Let our AI help you create the perfect Sri Lankan itinerary.</string>
+    <string name="profile_details_title">Profile Details</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="settings_title">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="edit_profile">Edit Profile Details</string>
+    <string name="my_trips">My Trips</string>
+    <string name="my_trips_empty">Your travel history will appear here.</string>
+
+    <!-- Trip Planning -->
+    <string name="trip_type_title">Select Trip Type</string>
+    <string name="trip_type_subtitle">What kind of experience are you looking for?</string>
+    <string name="travel_group_title">Select Travel Group</string>
+    <string name="travel_group_subtitle">Who are you traveling with?</string>
+    <string name="trip_details_title">Trip Details</string>
+    <string name="trip_details_subtitle">Tell us more about your trip.</string>
+    <string name="finish_trip_title">Finish Trip Plan</string>
+    <string name="finish_trip_subtitle">Review your choices before generating the itinerary.</string>
+    <string name="generate_itinerary">Generate Trip Plan</string>
+    <string name="continue_button">Continue</string>
+    <string name="next_button">Next</string>
+    <string name="destination_hint">Destination (e.g. Ella, Kandy, Galle)</string>
+    <string name="days_hint">Days</string>
+    <string name="travelers_hint">Travelers</string>
+    <string name="budget_hint">Budget (LKR)</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_cancel_trip_title">Cancel Planning?</string>
+    <string name="dialog_cancel_trip_msg">Do you want to cancel your trip planning?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_continue">Continue</string>
+</resources>

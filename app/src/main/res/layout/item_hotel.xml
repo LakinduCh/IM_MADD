@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_hotel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="2dp"
+    app:strokeColor="@android:color/transparent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_hotel_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Hotel Name"
+            android:textColor="@color/tripon_green"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btn_remove_hotel"/>
+
+        <ImageButton
+            android:id="@+id/btn_remove_hotel"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_delete"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:tint="@color/tripon_secondary_text"
+            android:contentDescription="Remove hotel" />
+
+        <TextView
+            android:id="@+id/tv_hotel_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Short description of the hotel."
+            android:textColor="@color/tripon_secondary_text"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tv_hotel_name" />
+
+        <LinearLayout
+            android:id="@+id/layout_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/tv_hotel_desc">
+
+            <TextView
+                android:id="@+id/tv_hotel_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.5 Stars"
+                android:textColor="@color/tripon_text"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="12dp"
+                android:background="@color/tripon_light_green" />
+
+            <TextView
+                android:id="@+id/tv_hotel_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LKR 15,000"
+                android:textColor="@color/tripon_text"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_map_hotel"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="0dp"
+            android:text="View on Google Maps"
+            android:textAllCaps="false"
+            android:textColor="@color/tripon_green"
+            android:textSize="13sp"
+            app:icon="@drawable/ic_home"
+            app:iconPadding="8dp"
+            app:iconSize="16dp"
+            app:iconTint="@color/tripon_green"
+            app:layout_constraintTop_toBottomOf="@id/layout_info"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_select_hotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select"
+            android:buttonTint="@color/tripon_green"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
